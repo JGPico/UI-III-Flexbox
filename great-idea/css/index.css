@@ -76,7 +76,6 @@ h1{
 nav{
 	display: flex;
 	justify-content: center;
-	/* justify-content: space-evenly; */
 	margin-top: 2%;
 }
 
@@ -90,6 +89,7 @@ nav a{
 	color: grey;
 	text-decoration: none;
 	margin-left: 2%;
+	margin-top: 0.5%;
 }
 
 nav a:hover{
@@ -133,7 +133,7 @@ header div{
 	text-align: center;
 }
 
-header img{
+.headImage{
 	margin-left: 2%;
 }
 
@@ -177,11 +177,17 @@ header img{
 	border-bottom: 2px solid black;
 } 
 
+.contactDiv{
+	width: 67%;
+	display: flex;
+	justify-content: center;
+}
+
 .contact{
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 2%;
 	display:flex;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 
@@ -196,46 +202,77 @@ footer{
 ------------------------------- */
 /* Begin code on Services.html */
 
-.serviceHeader{
-	max-width: 100%;
+
+.testDivTop{
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	/* flex-flow: column wrap; */
+}
+.serviceHeader{
+	width: 45%;
+	display: flex;
+	flex-flow: column wrap;
 	justify-content: center;
 }
 
 .serviceHeader div{
-	border: 2px solid blue;
-	width: 50%;
+	border-bottom: 2px solid black;
+	width: 100%;
+	/* display: flex; */
+	/* justify-content: center; */
+}
+
+.serviceHeader img{
+	width: 100%;
+}
+
+.testDiv{
 	display: flex;
 	justify-content: center;
 }
 
-.serviceHeader img{
-	width: 50%;
-}
-
 .serviceSection{
+	/* max-width:100%; */
 	margin-top: 2%;
+	width: 60%;
 	display:flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
 }
 
 .serviceSection div{
 	border: 2px solid black;
 	padding: 2%;
 	background-color: lightgrey;
+	width:35%;
+	margin: 3%;
+	/* display:flex;
+	justify-content: center; */
 }
 
 .learnButton{
 	text-align: center;
-	padding: 0.5%;
+	padding: 1%;
 	border: 2px solid black;
-	border-radius: 5%;
+	border-radius: 15%;
 	background-color: white;
+	width: 40%;
+	margin-top: 5%;
+}
+
+.learnButton:hover{
+	color: blue;
 }
 
 .serviceLowerSection{
+	width: 50%;
 	margin-top: 2%;
 	display:flex;
 	justify-content: center;
+	border-top: 2px solid black;
+}
+
+.serviceLowerSection div{
+	padding: 2%;
 }
