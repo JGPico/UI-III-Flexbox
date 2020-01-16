@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+p {
+	margin-bottom: 1%;
+}
+
+h1{
+	font-size: 250%;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	/* justify-content: space-evenly; */
+	margin-top: 2%;
+}
+
+@keyframes sparkle {
+	from{background-color: #FF1493;}
+	to{background-color: #1E90FF;}
+  }
+
+nav a{
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+	margin-left: 2%;
+}
+
+nav a:hover{
+	color: lightgreen;
+	animation-name: sparkle;
+	animation-duration: 2s;
+	background-color: #1E90FF;
+}
+
+nav img{
+	margin-left: 2%;
+}
+
+header{
+	margin-top: 2%;
+	display: flex;	
+	justify-content: center;
+}
+
+header div{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid grey;
+	border-left: 2px solid grey;
+	border-top: 2px solid lightgrey;
+	border-right: 2px solid lightgrey;
+} 
+
+header a:hover{
+	color: blue;
+}
+
+header div{
+	text-align: center;
+}
+
+header img{
+	margin-left: 2%;
+}
+
+.top-section{
+	width: 40%;
+	border-top: 2px solid black;
+}
+
+
+.top-section div {
+	width: 45%;
+} 
+
+.middle-img{
+	/* border:2px solid green; */
+	width: 40%;
+}
+
+.middle-section{
+	width: 40%;
+	border-bottom: 2px solid black;
+}
+
+.middle-section div {
+	width: 30%;
+} 
+
+.contact{
+	width: 50%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+footer{
+	text-align: center;
+}
