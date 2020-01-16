@@ -219,3 +219,23 @@ footer{
 	display:flex;
 	justify-content: center;
 }
+
+.serviceSection div{
+	border: 2px solid black;
+	padding: 2%;
+	background-color: lightgrey;
+}
+
+.learnButton{
+	text-align: center;
+	padding: 0.5%;
+	border: 2px solid black;
+	border-radius: 5%;
+	background-color: white;
+}
+
+.serviceLowerSection{
+	margin-top: 2%;
+	display:flex;
+	justify-content: center;
+}
