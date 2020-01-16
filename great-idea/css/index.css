@@ -116,7 +116,7 @@ header div{
 	justify-content: center;
 }
 
-header a {
+header .getStarted {
 	text-decoration: none;
 	color: black;
 	border-bottom: 2px solid grey;
@@ -137,37 +137,85 @@ header img{
 	margin-left: 2%;
 }
 
+.align{
+	/* display:flex;
+	flex-flow: wrap row; */
+	/* justify-content: center; */
+}
+
 .top-section{
-	width: 40%;
-	border-top: 2px solid black;
+	margin-top: 2%;
+	display:flex;
+	justify-content: center;
 }
 
 
 .top-section div {
-	width: 45%;
+	width: 20%;
+	border-top: 2px solid black;
 } 
 
 .middle-img{
-	/* border:2px solid green; */
+	margin-top: 2%;
+	display:flex;
+	justify-content: center;
+}
+
+.middle-img img{
 	width: 40%;
 }
 
 .middle-section{
-	width: 40%;
-	border-bottom: 2px solid black;
+	margin-top: 2%;
+	display:flex;
+	justify-content: center;
 }
+	
 
 .middle-section div {
-	width: 30%;
+	width: 13.5%;
+	border-bottom: 2px solid black;
 } 
 
 .contact{
-	width: 50%;
 	font-family: 'Montserrat', sans-serif;
+	margin-top: 2%;
+	display:flex;
+	justify-content: center;
 }
 
 
 
 footer{
 	text-align: center;
+}
+
+
+/* Begin code on Services.html */
+/* ---------------------------
+------------------------------- */
+/* Begin code on Services.html */
+
+.serviceHeader{
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.serviceHeader div{
+	border: 2px solid blue;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.serviceHeader img{
+	width: 50%;
+}
+
+.serviceSection{
+	margin-top: 2%;
+	display:flex;
+	justify-content: center;
 }
